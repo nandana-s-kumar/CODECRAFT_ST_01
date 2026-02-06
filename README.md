@@ -275,4 +275,94 @@ Manual test cases for Calculator application
 **Expected Result:**  
 - The result in display should be 14  
   
+---------------------------------------
 
+---
+
+## Division Test Cases
+
+## Test case 1
+
+**Test Case ID:** TC_DIV_001  
+
+**Description:** Verify division of two positive numbers  
+
+**Preconditions:**  
+- Calculator application is opened  
+- Display shows 0  
+
+**Test Steps:**  
+1. Click Number 8  
+2. Click ÷  
+3. Click Number 2  
+4. Click =  
+
+**Expected Result:**  
+- The result in display should be 4  
+
+
+---
+
+## Test case 2
+
+**Test Case ID:** TC_DIV_002  
+
+**Description:** Verify division involving negative numbers  
+
+**Preconditions:**  
+- Calculator application is opened  
+- Display shows 0  
+
+**Test Steps:**  
+1. Click Number -8  
+2. Click ÷  
+3. Click Number 2  
+4. Click =  
+
+**Expected Result:**  
+- The result in display should be -4
+
+---
+
+## Test case 3
+
+**Test Case ID:** TC_DIV_003  
+
+**Description:** Verify division of decimal numbers  
+
+**Preconditions:**  
+- Calculator application is opened  
+- Display shows 0  
+
+**Test Steps:**  
+1. Click Number 5  
+2. Click .  
+3. Click Number 5  
+4. Click ÷  
+5. Click Number 2  
+6. Click =  
+
+**Expected Result:**  
+- The result in display should be 2.75  
+
+---
+
+## Test case 4
+
+**Test Case ID:** TC_DIV_004  
+
+**Description:** Verify calculator behavior when dividing by zero  
+
+**Preconditions:**  
+- Calculator application is opened  
+- Display shows 0  
+
+**Test Steps:**  
+1. Click Number 5  
+2. Click ÷  
+3. Click Number 0  
+4. Click =  
+
+**Expected Result:**  
+- Calculator should display an error message  
+- Application should not crash or freeze  
